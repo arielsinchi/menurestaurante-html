@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú del Restaurante</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-gray-800 text-white text-center py-4 shadow-md">
+        <h1 class="text-3xl font-bold">La Delicia</h1>
+    </header>
+    <nav class="bg-gray-800 text-white sticky top-0 z-50 shadow-md">
+        <ul class="flex justify-center flex-wrap p-2">
+            <li class="mx-4"><a href="#aperitivos" class="hover:text-yellow-300 p-2 rounded">  Aperitivos 🍔</a></li>
+            <li class="mx-4"><a href="#platos-principales" class="hover:text-yellow-300 p-2 rounded">Platos Principales 🍽️</a></li>
+            <li class="mx-4"><a href="#postres" class="hover:text-yellow-300 p-2 rounded">Postres 🍰</a></li>
+            <li class="mx-4"><a href="#bebidas" class="hover:text-yellow-300 p-2 rounded">Bebidas 🍹</a></li>
+        </ul>
+    </nav>
+    <main class="max-w-4xl mx-auto my-8 bg-white shadow-md rounded-lg p-6">
+        <section class="mb-8 border-b pb-4" id="aperitivos">
+            <h2 class="text-2xl font-bold text-red-600 flex items-center mb-4"><span class="mr-2">🍽️</span>Aperitivos</h2>
+            <ul class="list-none p-0">
+                <li class="flex justify-between py-3 border-b border-dashed hover:bg-gray-50">
+                    <span class="font-semibold text-gray-800">Ensalada César</span><span class="text-gray-600">$8.99</span>
+                </li>
+                <li class="flex justify-between py-3 border-b border-dashed hover:bg-gray-50">
+                    <span class="font-semibold text-gray-800">Calamares Fritos</span><span class="text-gray-600">$12.99</span>
+                </li>
+                 <li class="flex justify-between py-3 border-b border-dashed hover:bg-gray-50">
+                    <span class="font-semibold text-gray-800">Nachos con Queso</span><span class="text-gray-600">$9.99</span>
+                </li>
+                <li class="flex justify-between py-3 border-b border-dashed hover:bg-gray-50">
+                    <span class="font-semibold text-gray-800">Alitas de Pollo</span><span class="text-gray-600">$10.99</span>
+                </li>
+                 <li class="flex justify-between py-3 border-b border-dashed hover:bg-gray-50">
+                    <span class="font-semibold text-gray-800">Patatas Bravas</span><span class="text-gray-600">$7.99</span>
+                </li>
+            </ul>
+        </section>
+        <section class="mb-8 border-b pb-4" id="platos-principales">
+            <h2 class="text-2xl font-bold text-red-600 flex items-center mb-4"><span class="mr-2">🍲</span>Platos Principales</h2>
+            <ul class="list-none p-0">
+                <li class="flex justify-between py-3 border-b border-dashed hover:bg-gray-50">
+                    <span class="font-semibold text-gray-800">Filete a la Parrilla</span><span class="text-gray-600">$24.99</span>
+                </li>
+                <li class="flex justify-between py-3 border-b border-dashed hover:bg-gray-50">
+                    <span class="font-semibold text-gray-800">Salmón al Horno</span><span class="text-gray-600">$22.99</span>
+                </li>
+                <li class="flex justify-between py-3 border-b border-dashed hover:bg-gray-50">
+                    <span class="font-semibold text-gray-800">Pasta Carbonara</span><span class="text-gray-600">$18.99</span>
+                </li>
+                 <li class="flex justify-between py-3 border-b border-dashed hover:bg-gray-50">
+                    <span class="font-semibold text-gray-800">Paella Valenciana</span><span class="text-gray-600">$26.99</span>
+                </li>
+                <li class="flex justify-between py-3 border-b border-dashed hover:bg-gray-50">
+                    <span class="font-semibold text-gray-800">Hamburguesa Gourmet</span><span class="text-gray-600">$16.99</span>
+                </li>
+            </ul>
+        </section>
+        <section class="mb-8 border-b pb-4" id="postres">
+            <h2 class="text-2xl font-bold text-red-600 flex items-center mb-4"><span class="mr-2">🍰</span>Postres</h2>
+            <ul class="list-none p-0">
+                 <li class="flex justify-between py-3 border-b border-dashed hover:bg-gray-50">
+                    <span class="font-semibold text-gray-800">Tiramisú</span><span class="text-gray-600">$7.99</span>
+                </li>
+                <li class="flex justify-between py-3 border-b border-dashed hover:bg-gray-50">
+                    <span class="font-semibold text-gray-800">Cheesecake</span><span class="text-gray-600">$6.99</span>
+                </li>
+                <li class="flex justify-between py-3 border-b border-dashed hover:bg-gray-50">
+                    <span class="font-semibold text-gray-800">Helado de Vainilla</span><span class="text-gray-600">$5.99</span>
+                </li>
+                <li class="flex justify-between py-3 border-b border-dashed hover:bg-gray-50">
+                    <span class="font-semibold text-gray-800">Brownie con Chocolate</span><span class="text-gray-600">$8.99</span>
+                </li>
+                <li class="flex justify-between py-3 border-b border-dashed hover:bg-gray-50">
+                    <span class="font-semibold text-gray-800">Flan de Caramelo</span><span class="text-gray-600">$6.99</span>
+                </li>
+            </ul>
+        </section>
+        <section class="mb-8" id="bebidas">
+            <h2 class="text-2xl font-bold text-red-600 flex items-center mb-4"><span class="mr-2">🍹</span>Bebidas</h2>
+            <ul class="list-none p-0">
+                <li class="flex justify-between py-3 border-b border-dashed hover:bg-gray-50">
+                    <span class="font-semibold text-gray-800">Refresco</span><span class="text-gray-600">$2.99</span>
+                </li>
+                 <li class="flex justify-between py-3 border-b border-dashed hover:bg-gray-50">
+                    <span class="font-semibold text-gray-800">Jugo Natural</span><span class="text-gray-600">$3.99</span>
+                </li>
+                <li class="flex justify-between py-3 border-b border-dashed hover:bg-gray-50">
+                    <span class="font-semibold text-gray-800">Cerveza</span><span class="text-gray-600">$4.99</span>
+                </li>
+                <li class="flex justify-between py-3 border-b border-dashed hover:bg-gray-50">
+                    <span class="font-semibold text-gray-800">Vino Tinto</span><span class="text-gray-600">$6.99</span>
+                </li>
+                 <li class="flex justify-between py-3 border-b border-dashed hover:bg-gray-50">
+                    <span class="font-semibold text-gray-800">Agua Mineral</span><span class="text-gray-600">$1.99</span>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="text-center py-4 bg-gray-800 text-white mt-10">
+        <p>&copy; 2024 La Delicia Restaurant</p>
+    </footer>
+</body>
+</html>
